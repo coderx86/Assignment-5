@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment-5</title>
+    <!-- fontawsome cdn -->
+    <script src="https://kit.fontawesome.com/b680eebc94.js" crossorigin="anonymous"></script>
+    <!-- google font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
+    <!-- Daisyui cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Tailwind css -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="font-[Lexend]">
+    <nav class="sticky top-0 z-50">
+        <!-- navbar container -->
+        <div class="flex justify-between items-center text-xl sm:px-32 px-5 py-6 bg-[#F9F7F3]">
+            <div class="sm:scale-100 scale-90">
+                <a href="index.html">
+                    <button class="btn bg-[#B4F461] px-8 py-3 font-semibold text-xl">
+                        Home
+                    </button>
+                </a>
+            </div>
+            <div class="sm:scale-100 scale-90">
+                <a href="index.html" class="flex sm:flex items-center justify-center">
+                    <img src="assets/logo.png" alt="" class="size-12">
+                    <h2 class="ml-4 font-semibold">Donate Bangladesh</h2>
+                </a>
+            </div>
+            <div class="flex text-[#111111b3] sm:scale-100 scale-90">
+                <img src="assets/coin.png" alt="" class="size-7">
+                <span class="ml-3" id="account-balance">5500</span>
+                <span>BDT</span>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <div class="w-[80%] m-auto flex flex-col gap-8 my-20">
+            <h1 class="sm:text-5xl text-3xl font-bold">Important FAQ <i class="fa-regular fa-circle-question"></i></h1>
+            <div class="collapse collapse-plus bg-base-200">
+                <input type="radio" name="my-accordion-3" checked="checked" />
+                <div class="collapse-title text-xl font-bold">What is the Document Object Model (DOM)?</div>
+                <div class="collapse-content text-[#111111b3]">
+                  <p>The Document Object Model (DOM) is a programming interface that represents the structure of a webpage as a tree of objects. It allows developers to manipulate HTML, CSS, and content dynamically using JavaScript, enabling interaction, style changes, and content updates in real-time.</p>
+                </div>
+              </div>
+              <div class="collapse collapse-plus bg-base-200">
+                <input type="radio" name="my-accordion-3" />
+                <div class="collapse-title text-xl font-bold">How do you selected an element form the DOM?</div>
+                <div class="collapse-content text-[#111111b3]">
+                  <p>
+                    To select an element from the DOM, use JavaScript methods like getElementById() for ID-based selection, getElementsByClassName() for class-based selection, or querySelector() to select the first element matching a CSS selector, such as an ID or class.</p>
+                </div>
+              </div>
+              <div class="collapse collapse-plus bg-base-200">
+                <input type="radio" name="my-accordion-3" />
+                <div class="collapse-title text-xl font-bold">What is event delegation in the context of the DOM, and why is it useful?</div>
+                <div class="collapse-content text-[#111111b3]">
+                  <p>Event delegation in the DOM involves attaching a single event listener to a parent element instead of multiple child elements. It's useful because it improves performance, reduces memory usage, and dynamically handles events for newly added child elements without extra code.</p>
+                </div>
+              </div>
+              <div class="collapse collapse-plus bg-base-200">
+                <input type="radio" name="my-accordion-3" />
+                <div class="collapse-title text-xl font-bold">How do you manipulate an element`s attributes and styles using the DOM?</div>
+                <div class="collapse-content text-[#111111b3]">
+                  <p>To manipulate an element's attributes and styles using the DOM, use the setAttribute() method for changing attributes. To modify styles, access the style property of the element and set the desired CSS properties directly, allowing for dynamic visual changes.</p>
+                </div>
+              </div>
+        </div>
+    </main>
+    <footer class="bg-[#F9F7F3] h-20">
+    </footer>
+</body>
+</html>

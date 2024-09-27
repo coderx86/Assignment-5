@@ -17,37 +17,41 @@
 <body class="font-[Lexend]">
     <nav class="sticky top-0 z-50">
         <!-- navbar container -->
-        <div class="flex justify-between items-center text-xl px-32 py-6 bg-[#F9F7F3]">
-            <div>
-                <button class="btn bg-[#B4F461] px-8 py-3 font-semibold text-xl">
+        <div class="flex justify-between items-center text-xl sm:px-32 px-5 py-6 bg-[#F9F7F3]">
+            <div class="sm:scale-100 scale-90">
+                <a href="blog.html">
+                    <button class="btn bg-[#B4F461] px-8 py-3 font-semibold text-xl">
                         Blog
-                </button>
+                    </button>
+                </a>
             </div>
-            <div class="flex items-center">
-                <img src="assets/logo.png" alt="" class="size-12">
-                <h2 class="ml-4 font-semibold">Donate Bangladesh</h2>
+            <div class="sm:scale-100 scale-90">
+                <a href="index.html" class="flex sm:flex items-center justify-center">
+                    <img src="assets/logo.png" alt="" class="size-12">
+                    <h2 class="ml-4 font-semibold">Donate Bangladesh</h2>
+                </a>
             </div>
-            <div class="flex text-[#111111b3]">
+            <div class="flex text-[#111111b3] sm:scale-100 scale-90">
                 <img src="assets/coin.png" alt="" class="size-7">
                 <span class="ml-3" id="account-balance">5500</span>
                 <span>BDT</span>
             </div>
         </div>
         <!-- bottom part -->
-        <div class="flex justify-center pt-10 pb-8 border-b-[1px] bg-white/30 backdrop-blur-sm">
-            <button class="btn text-xl font-semibold px-8 py-4 bg-[#B4F461] mr-4" id="btn-donation">
+        <div class="flex justify-center sm:pt-10 pt-5 sm:pb-8 pb-5 border-b-[1px] bg-white/30 backdrop-blur-sm">
+            <button class="btn text-xl font-semibold px-8 py-4 bg-[#B4F461] mr-4 sm:scale-100 scale-90" id="btn-donation">
                 Donation
             </button>
-            <button class="btn text-xl font-semibold px-8 py-4 text-[#111111b3]" id="btn-history">
+            <button class="btn text-xl font-semibold px-8 py-4 text-[#111111b3] sm:scale-100 scale-90" id="btn-history">
                 History
             </button>
         </div>
     </nav>
     <main>
         <!-- Donation container -->
-        <div class="flex flex-col gap-8" id="donation-container">
+        <div class="flex flex-col gap-8 max-w-[1200px] sm:px-0 px-5 mx-auto" id="donation-container">
                     <!-- Noakhali div -->
-            <div class="flex gap-8 p-8 max-w-[1100px] mx-auto border-2 rounded-2xl mt-8">
+            <div class="flex gap-8 sm:p-8 p-5 sm:flex-row flex-col border-2 rounded-2xl mt-8">
                 <img src="assets/noakhali.png" alt="">
                 <div>
                     <div>
@@ -69,7 +73,7 @@
                 </div>
             </div>
             <!-- Feni div -->
-            <div class="flex gap-8 p-8 max-w-[1100px] mx-auto border-2 rounded-2xl">
+            <div class="flex gap-8 p-8 sm:p-8 p-5 sm:flex-row flex-col border-2 rounded-2xl">
                 <img src="assets/feni.png" alt="">
                 <div>
                     <div>
@@ -91,7 +95,7 @@
                 </div>
             </div>
             <!-- Quota movement div -->
-            <div class="flex gap-8 p-8 max-w-[1100px] mx-auto border-2 rounded-2xl mb-20">
+            <div class="flex gap-8 p-8 sm:p-8 p-5 sm:flex-row flex-col border-2 rounded-2xl mb-20">
                 <img src="assets/quota-protest.png" alt="">
                 <div>
                     <div>

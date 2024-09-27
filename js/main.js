@@ -24,19 +24,19 @@ btnDonation.addEventListener('click', function(){
 });
 
 // donation function for Noakhali
-document.getElementById("btn-noakhali-donate").addEventListener("click", function (event) {
+document.getElementById("btn-noakhali-donate").addEventListener("click", function () {
     donationProcess('noakhali-input', 'noakhali-donated', 'Noakhali');
   
     document.getElementById("noakhali-input").value = "";
   });
 // donation function for Feni
-document.getElementById("btn-feni-donate").addEventListener("click", function (event) {
+document.getElementById("btn-feni-donate").addEventListener("click", function () {
     donationProcess('feni-input', 'feni-donated', 'Feni');
   
     document.getElementById("feni-input").value = "";
   });
 // donation function for Qouta-movement
-document.getElementById("btn-qouta-donate").addEventListener("click", function (event) {
+document.getElementById("btn-qouta-donate").addEventListener("click", function () {
     donationProcess('qouta-input', 'qouta-donated', 'Qouta Movement');
 
     document.getElementById("qouta-input").value = "";

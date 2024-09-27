@@ -37,7 +37,7 @@ function donationProcess(inputId, donatedId, locationName) {
         const div = document.createElement('div');
         const time = new Date();
         const timeText = time.toString();
-        div.classList.add('p-8', 'border', 'border-solid', 'border-[#1111111a]', 'w-10/12', 'm-auto', 'rounded-2xl', 'mt-8');
+        div.classList.add('p-8', 'border', 'border-solid', 'border-[#1111111a]', 'w-[80%]', 'm-auto', 'rounded-2xl', 'mt-8');
     
         div.innerHTML = `
           <h2 class="text-xl font-bold">${inputAmount} Taka is Donated for famine-2024 at ${locationName}, Bangladesh</h2>
@@ -48,4 +48,3 @@ function donationProcess(inputId, donatedId, locationName) {
         alert("Not enough balance in your account!");
     }
 }
-
